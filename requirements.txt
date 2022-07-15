@@ -1,5 +1,5 @@
 charset-normalizer==2.1.0
-click 7.1.2
+click==7.1.2
 colorama==0.4.5
 filelock==3.7.1
 Flask==2.0.3
