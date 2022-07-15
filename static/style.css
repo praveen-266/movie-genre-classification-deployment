@@ -1,0 +1,134 @@
+html {
+    height: 100%;
+    margin: 0 auto;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    width: 800%;
+    max-width: 960px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.centerd{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+/* Website Title */
+.container{
+    background-color: #f9f9ff;
+    padding: 30px;
+    position: relative;
+    background: linear-gradient(45deg,#ffff,#ffff,#f9f9f9,#e0e4e1,#d7e1ec) ;
+    background-size: 500% 500%;
+    animation: change-gradient 10s ease-in-out infinite;
+    margin: 0 auto;
+}
+@keyframes change-gradient {
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+
+.container-heading{
+    margin: 0 auto;
+}
+
+.heading-font{
+    color: #ff8000;
+    font-family: 'Yatra One','Cursive';
+    font-size: 27px;
+    font-weight: normal;
+}
+
+.description p{
+    font-style: italic;
+    font-size: 14px;
+    margin: 0 auto;
+}
+
+/* Text Area  */
+.ml-container{
+    margin: 30px 0;
+    flex: 1 0 auto;
+}
+
+.message-box{
+    margin-bottom: 20px;
+}
+
+/* Prediction Button */
+.my-cta-button{
+    background: #f9f9f9;
+    border: 2px solid #000000;
+    border-radius: 1000px;
+    box-shadow: 3px 3px #8c8c8c;
+    padding: 10px 36px;
+    color: #000000;
+    display: inline-block;
+    font: italic bold 20px/1 "Calibri" sans-serif;
+    text-align: center;
+}
+
+.my-cta-button:hover{
+    color: #ff8000;
+    border: 2px solid #ff8000;
+}
+
+.my-cta-button:active{
+    box-shadow: 0 0;
+}
+
+/* footer */
+.footer{
+    font-size: 14px;
+        padding: 0;
+        flex-shrink: 0;
+        position: relative;
+        background: linear-gradient(45deg,#ffffff,#ffffff,#f9f9f9,#eeee,#e0e4e1,#d7e1ec);
+        background-size: 500% 500%;
+        animation: change-gradient 10s ease-in-out infinite;
+}
+
+.contact-icon{
+    color: #000000;
+    padding: 7px;
+}
+
+.contact-icon:hover{
+    color: #8c8c8c;
+}
+
+.footer-description{
+    margin: 0 auto;
+    font-size: 12px;
+    text-align: center;
+}
+
+/* Result */
+.result{
+    padding: 30px 0 0;
+    flex: 1 0 auto;
+}
+
+.result-prediction{
+    color: #ff8000;
+}
