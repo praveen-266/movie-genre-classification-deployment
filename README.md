@@ -6,5 +6,5 @@
 
 
 * If you are searching for **Code,Algorithms used** and **Accuracy** of the model.you won't find it here.click the link mentioned below for the same:      
-* https://github.com/praveen-266/Natural-Language-Preprocessing-Projects/tree/main/movie%20genre%20classification
+https://github.com/praveen-266/Natural-Language-Preprocessing-Projects/tree/main/movie%20genre%20classification
 * 
